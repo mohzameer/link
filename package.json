@@ -1,6 +1,6 @@
 {
-  "name": "@editorjs/link",
-  "version": "2.6.2",
+  "name": "zmeditorjs-link",
+  "version": "2.6.3",
   "keywords": [
     "codex editor",
     "tool",
@@ -12,7 +12,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/editor-js/link.git"
+    "url": "git+https://github.com/mohzameer/link.git"
   },
   "files": [
     "dist"
@@ -45,9 +45,9 @@
     "vite-plugin-css-injected-by-js": "^3.3.0"
   },
   "bugs": {
-    "url": "https://github.com/editor-js/link/issues"
+    "url": "https://github.com/mohzameer/link/issues"
   },
-  "homepage": "https://github.com/editor-js/link#readme",
+  "homepage": "https://github.com/mohzameer/link#readme",
   "dependencies": {
     "@babel/runtime": "^7.10.2",
     "@codexteam/icons": "^0.0.4"

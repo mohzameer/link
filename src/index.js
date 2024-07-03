@@ -84,6 +84,7 @@ export default class LinkTool {
     this.config = {
       endpoint: config.endpoint || '',
       headers: config.headers || {},
+      beforeCall: config.beforeCall || null,
     };
 
     this.nodes = {
@@ -266,6 +267,7 @@ export default class LinkTool {
     }
 
     this.removeErrorStyle();
+    this.config.beforeCall && this.config.beforeCall();
     this.fetchLinkData(url);
   }
 
